@@ -16,6 +16,6 @@ The goals we use. By setting measurable goals, it is possible to know when goals
 
 The player will usually know if they have reached the goal by counting the highest number of jumps.
 
-#challenges
+#Challenging
 
 One of the most important challenges we faced was calculating the winning equation, dealing with and linking databases, and then learning how to show that data.
