@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" onclick="jump()" >
+<head>
+    <meta charset="UTF-8">
+    <title>Jump Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game">
+        <div id="character"></div>
+        <div id="block"></div>
+    </div>
+    
+    <!-- <p> Score: <span id="scoreSpan"></span></p> -->
+   <!-- <div id="highScore">High Score: 0</div> -->
+
+   <p> <span id="currentScore"></span></p>
+   <p> <span id="highScore"></span></p>
+   
+
+
+<form action="Highestscore.php" method="post">
+      <input type="text" id = "score" name="score"> <br>
+      <button type="submit" name="submit">submit Highest Score</button>
+    </form>
+    
+</body>
+<script src="script.js"></script>
+</html>
